@@ -1,3 +1,5 @@
+<img src='img/lsa2019-logo.png' align=left>
+
 # Introduction to video for documentary linguistics
 
 In this class, we'll learn the basics of video recording (static, multi-party) speech events for the purposes of documentation. The class will be split into two parts: 
@@ -15,4 +17,7 @@ Unfortunately, due to time constraints, we *won't* have time to make video recor
 1. Click on blue button "Start free trial"
 1. Then you'll be asked for your email and other info.
 
-# Download exercise files from Google Drive (Please complete before class)
+# Download exercise files from UH File Drop (Please complete before class)
+
+1. Everyone will receive an email with a link to download video files. 
+1. If you do not recive this email, please contact me at <mcdonn@hawaii.edu>.
