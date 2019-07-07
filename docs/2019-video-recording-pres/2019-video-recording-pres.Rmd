@@ -323,7 +323,7 @@ class: middle, center, inverse
 # Let's practice
 
 
-
+<!--
 ---
 
 # Downloading Adobe Premiere
@@ -338,4 +338,4 @@ class: middle, center, inverse
 
 ### You'll need to cancel before your trial is up to avoid being charged!
 
-
+-->
