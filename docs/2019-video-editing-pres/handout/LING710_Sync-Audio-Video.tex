@@ -1,0 +1,119 @@
+\documentclass{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{mdframed}
+\newenvironment{myenv}[1]
+  {\mdfsetup{
+    frametitle={\colorbox{white}{\space#1\space}},
+    innertopmargin=10pt,
+    frametitleaboveskip=-\ht\strutbox,
+    frametitlealignment=\center
+    }
+  \begin{mdframed}%!TEX encoding = UTF-8 Unicode
+  }
+  {\end{mdframed}}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{2/16/2017}
+\lhead{LING710}
+\chead{}
+\rfoot{Page \thepage}
+
+%\pagestyle{firstpage}
+%\fancyhf{}
+% \textsc{Department of Linguistics}\vspace{0.75in}}}
+
+\usepackage{enumitem}
+
+\title{Syncing Audio \& Video with Adobe Premier Pro (2017)}
+\date{}
+%\pagenumbering{gobble}
+\begin{document}\thispagestyle{empty}
+%\maketitle
+\begin{center}
+{\Large\textbf{Syncing Audio \& Video with Adobe Premier Pro (2017)}}
+\end{center}
+%
+%\begin{myenv}{Objectives}
+%
+%\end{myenv}
+
+\section*{Creating an Adobe Premiere Pro file \texttt{.prproj} file}
+\begin{enumerate}  \item Open Adobe Premiere Pro (2017).
+  \item Click \texttt{New project\ldots} on the pop-up start page.  \item Name the project (e.g., FM2-20161007-G5) and select a directory to save the project (e.g., in the same folder as the original video files FM2-20161007-G5-O).
+\end{enumerate}
+
+\section*{Importing video and sound files into Adobe Premiere Pro}
+\begin{enumerate}  \item Click the `project pane' (lower left corner) that reads \texttt{Import media to start}.   \item Navigate to the \texttt{00000.mts} file and select it. 
+    \begin{itemize}
+      \item \texttt{\ldots/FM2-20161007-G5-O/PRIVATE/AVCHD/BDMV/STREAM/00000.mts}
+    \end{itemize}  \item Click the `project pane' again and navigate to the \texttt{FM2-20161007-G5.wav} file and select it.  \item Both the video (.mts) and sound (.wav) file should appear in the `project pane'.
+\end{enumerate}
+
+\section*{Creating a `sequence' with audio and video files}
+\begin{enumerate}  \item Select the video (.mts) file and drag it to the `timeline pane'.
+  \item You have now created a sequence file taking the same name as the .mts file.
+  \begin{itemize}
+    \item The sequence file contains slots for three video files (e.g., V1, V2, V3) and three audio files (e.g., A1, A2, A3). 
+    \item The video (.mts) file takes up one video slot (V1) and one audio slot (A1)
+  \end{itemize}
+  \item Select the audio (.mts) file and drag it to the A2 slot in the `timeline pane'. 
+  \begin{itemize}
+    \item Note that the separate audio (.wav) and video (.mts) files do not align when it is played. Try playing the files in the `timeline pane', and you will hear two separate audio tracks.
+  \end{itemize}
+\end{enumerate}
+
+\section*{Synchronizing audio and video in a sequence}
+\begin{enumerate}
+  \item Select both the audio and video files, so that they turn white.
+  \item Right click on them, and select \texttt{Synchronize}.
+  \item In the pop-up menu under \texttt{Synchronize Point}, select \texttt{Audio} and then \texttt{OK}.
+  \begin{itemize}
+    \item The audio and video files are no longer aligned from the beginning, but they are now perfectly in sync. 
+  \end{itemize}
+\end{enumerate}
+
+\section*{Editing audio and video in a sequence}
+\begin{enumerate}
+  \item Select the \texttt{Razor Tool} just left of the `timeline pane'.
+  \item Use the razor tool to `cut' the video and audio file in the same place. I advise that you make the cut just before I clap three times.
+  \item Select the \texttt{Select Tool} just left of the `timeline pane'.
+  \item Select the `extra piece' of audio and video that need to be discarded and press \texttt{delete}.
+  \item Repeat the same process with the \texttt{Razor Tool} and \texttt{Select Tool} at the end of the recording (again, after I clap three times).
+  \begin{itemize}
+    \item Importantly, the audio and video segments are now \textit{exactly} the same length.
+  \end{itemize}
+  \item Select the audio and video files on the timeline and drag them to the beginning of the timeline.  
+\end{enumerate}
+
+\section*{Exporting the audio file}
+\begin{enumerate}
+  \item Mute the video (.mts) track by selecting both the eye icon so that it has a slash through it and the \texttt{M} icon immediately left of the track.
+  \item Select the audio (A2, .wav) segment on the timeline.
+  \item Click \texttt{File} $>$ \texttt{Export} $>$ \texttt{Media\ldots}.
+  \item A pop-up menu \texttt{Export Settings} will appear.
+  \item Under the format drop down menu, select \texttt{Waveform Audio}.
+  \begin{itemize}
+    \item The preset should be \texttt{WAV 48 kHz 16-bit}.
+  \end{itemize}
+  \item Click on the \texttt{Output Name} and select a location (e.g., in the directory FM2-20161007-G5) and name the file (e.g., FM2-20161007-G5.wav).
+  \item Click \texttt{Export} at the bottom.
+\end{enumerate}
+
+\section*{Exporting the video file}
+\begin{enumerate}
+  \item Mute the audio (.wav) track by selecting the \texttt{M} immediately left of the track.
+  \item Select the video segment on the timeline.
+  \item Click \texttt{File} $>$ \texttt{Export} $>$ \texttt{Media\ldots}.
+  \item A pop-up menu \texttt{Export Settings} will appear.
+  \item Under the format drop down menu, select \texttt{H.264}.
+  \begin{itemize}
+    \item The preset should be \texttt{Match Source - High bitrate}.
+  \end{itemize}
+  \item Click on the \texttt{Output Name} and select a location (e.g., in the directory FM2-20161007-G5) and name the file (e.g., FM2-20161007-G5.mp4).
+  \item Click \texttt{Export} at the bottom.
+\end{enumerate}
+
+\end{document}
