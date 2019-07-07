@@ -1,4 +1,6 @@
-<img src='img/lsa2019-logo.png' align=left>
+<img src='img/lsa2019-logo.png' width="500" align=left>
+<br>
+
 
 # Introduction to video for documentary linguistics
 
