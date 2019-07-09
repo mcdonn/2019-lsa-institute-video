@@ -17,10 +17,10 @@ Unfortunately, due to time constraints, we *won't* have time to make video recor
 ## Instructions for downloading Adobe Premiere (Please complete before class)
 
 1. Go to (https://www.adobe.com/products/premiere.html)
-1. Click "Free Trial" in upper righthand corner. 
-1. Click on "Students & Teachers" 
+1. Click "Free Trial" in upper righthand corner.
 1. Click on blue button "Start free trial"
 1. Then you'll be asked for your email and other info.
+1. Make sure you have Adobe Premiere downoaded by opening the program.
 
 ## Download exercise files from UH File Drop (Please complete before class)
 
