@@ -1,7 +1,7 @@
 ---
 title: "Video editing for language documentation"
 author: "Leah Pappas & Bradley McDonnell<br>University of Hawai‘i at Mānoa"
-date: "2019/02/19 (updated: `r Sys.Date()`)"
+date: "2019/07/11 (updated: `r Sys.Date()`)<br>http://bit.ly/lsa-institute-video-editing"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -15,15 +15,62 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-# Workflow
+# Overview
 
-1. Brief introduction to the current status of video editing in language documentation. 
+1. Discuss video files 
 
-1. Discussion of technical terms associated with video 
+1. Brief intro to current video editing practices in language documentation. 
 
-1. Introduction to Adobe Premiere layout and important tools 
+1. Introduce Adobe Premiere
 
-1. Workthrough of file editing.
+1. Walk through example of file editing.
+
+---
+
+# Video files: Key terms
+- Containers
+
+  - Contain all information about a video file: video, audio, metadata
+  - Popular containers: MPEG-4 (.mp4), AVCHD (.mts), QTFF (.mov)
+
+---
+
+# Understanding AVCHD video Files
+
+.center[
+
+![AVCHD](https://videoconverter.wondershare.com/images/en/ts/understanding-the-avchd-file-structure-1.jpg)
+
+.caption[
+**Fig. 1:** AVCHD File Structure
+]
+
+]
+---
+
+# Video files: Key terms
+
+- Containers
+  - Contain all information about a video file: video, audio, metadata
+  - Popular containers: MPEG-4 (.mp4), AVCHD (.mts), QTFF (.mov)
+
+--
+
+- Codecs
+  - Way to compress or decompress (code or decode) data
+  - Data is compressed for storage and decompressed when a video is played
+  - Popular codecs: H.264 (for .mp4 files), MPEG-2 (for .mts files) ProRes (Apple proprietary)
+  
+--
+
+<!--
+- Lossless vs. lossy
+
+  - Lossless: a method of data encoding that allows the original data to be completely reconstructed upon decompression
+    - Lossless audio codecs: .wav, .aiff
+  - Lossy: a method of data encoding that only saves the essential information in order to reduce file size
+    - Lossy audio codecs: .mp3, .aac
+-->
 
 ---
 
@@ -39,7 +86,7 @@ options(htmltools.dir.version = FALSE)
 
 - There is no established workflow for video
  
-  - But some archives have created methods (see especially ELAR)
+  - But some archives have created methods (see especially [ELAR](https://www.soas.ac.uk/elar/helpsheets/))
 
 - There is no all-encompasing free open-source video editing software (e.g., Audacity for video)
 
@@ -63,77 +110,27 @@ class: left
 class: left
 # Workflow
 
+1. Upload files (audio and video)
+  - For AVCHD video, upload the highest level folder (usually named "PRIVATE") 
+  - ... and ***don't*** rename the file! 
+  - simply place it in a folder that is properly named
 
-
-1. Upload files 
-
-1. Align audio and video 
-
-1. Trim files 
-
-1. Choose export settings 
-
-1. Export
-
----
-
-# Key terms
-- Containers
-
---
+1. Align audio and video (in Premiere)
   
-  - Contain all information about a video file: video, audio, metadata
-  - Popular containers: MPEG-4 (.mp4), AVCHD (.mts), QTFF (.mov)
+1. Trim files (in Premiere)
+
+1. Choose export settings (in Premiere)
+
+1. Export (in Media Encoder)
 
 ---
 
-# Understanding AVCHD and Video Files
-
-.center[
-
-![AVCHD](https://videoconverter.wondershare.com/images/en/ts/understanding-the-avchd-file-structure-1.jpg)
-
-.caption[
-**Fig. 1:** AVCHD File Structure
-]
-
-]
----
-
-# Key terms
-- Containers
-  - Contain all information about a video file: video, audio, metadata
-  - Popular containers: MPEG-4 (.mp4), AVCHD (.mts), QTFF (.mov)
-
-- Codecs
-
---
-  - Way to compress or decompress (code or decode) data
-  - Data is compressed for storage and decompressed when a video is played
-  - Popular codecs: H.264 (for .mp4 files), MPEG-2 (for .mts files) ProRes (Apple proprietary)
-  
---
-
-- Lossless vs. lossy
-
---
-
-  - Lossless: a method of data encoding that allows the original data to be completely reconstructed upon decompression
-    - Lossless audio codecs: .wav, .aiff
-  - Lossy: a method of data encoding that only saves the essential information in order to reduce file size
-    - Lossy audio codecs: .mp3, .aac
+class: center, middle, inverse
+# Let's practice!
 
 ---
 
-# Adobe Practice
-
-
-???
-Here's where we'll just lead them through editing a file (leaning towards editing the file together rather than just sending them off on their own. I may change my mind after our first session) and asking them to export several types: high quality video, low quality shareable video, and just audio. Will give some explanation on the different parts of the editing window and such
-
----
-
-# Free Video editing software
+# (Free) video editing software
 - [Hitfilm](https://fxhome.com/express)
   - Confusing download
 - [Openshot](https://www.openshot.org/download/)
