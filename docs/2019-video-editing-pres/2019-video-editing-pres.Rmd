@@ -27,15 +27,19 @@ options(htmltools.dir.version = FALSE)
 
 ---
 
-# Video-editing in language documentation
+# Video editing in language documentation
 
 - Why do we need to edit videos?
   
-  - To combine audio and video into a single high-quality file
+  - To create archive-ready video into a single high-quality file
   
-  - To export videos into accessible, long-lasting, and/or shareable file types
+  - To export videos into accessible and/or shareable file types
+  
+  - To sync video and audio that were created using a dual system method
 
 - There is no established workflow for video
+ 
+  - But some archives have created methods (see especially ELAR)
 
 - There is no all-encompasing free open-source video editing software (e.g., Audacity for video)
 
@@ -45,15 +49,14 @@ class: left
 
 # What is Adobe Premiere?
 
-- Adobe specializes in creative software (i.e. Photoshop)
-
-- Nearly all video professionals use Adobe
-
 - A non-linear video editing system
 
-- Acts as a middle man between the original and edited files
+  - Acts as a middle man between the original and edited files
 
 - It does not alter the original file
+   
+- Many, many video professionals use Adobe Premiere
+
 
 ---
 

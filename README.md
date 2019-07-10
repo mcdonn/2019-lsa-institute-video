@@ -1,9 +1,4 @@
-<img src='img/lsa2019-logo.png' width="500" align=left>
-<br>
-<br>
-<br>
-<br>
-
+<img src='img/lsa2019-logo.png' width="500">
 
 # Introduction to video for documentary linguistics
 
@@ -26,3 +21,5 @@ Unfortunately, due to time constraints, we *won't* have time to make video recor
 
 1. Everyone will receive an email with a link to download video files. 
 1. If you do not recive this email, please contact me at <mcdonn@hawaii.edu>.
+
+## [Practice Editing Video in Adobe Premiere](#practice)
