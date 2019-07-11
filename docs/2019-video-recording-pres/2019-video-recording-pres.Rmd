@@ -19,9 +19,8 @@ options(htmltools.dir.version = FALSE)
 
 ### Introduce basics of video recording for language documentation
 
-
-### Today: Basic techniques for video recording
-### Tuesday: Basics of video editing
+1. Basic techniques for video recording
+2. Basics of video editing
 
 ---
 background-image: url(img/NSY-20170721-C-3.jpg)
