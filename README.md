@@ -22,4 +22,4 @@ Unfortunately, due to time constraints, we *won't* have time to make video recor
 1. Everyone will receive an email with a link to download video files. 
 1. If you do not recive this email, please contact me at <mcdonn@hawaii.edu>.
 
-## [Practice Editing Video in Adobe Premiere](#practice)
+## [Practice Editing Video in Adobe Premiere](practice.md)
